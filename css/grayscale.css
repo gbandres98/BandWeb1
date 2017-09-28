@@ -444,7 +444,13 @@ body {
     left: 0;
 }
 
+.titulo{
+    color: #7CA7C9;
+}
+
 .color-flip {
+    display: flex;
+    align-items: flex-end;
     height: calc(100vh - 50px);
     filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
     filter: gray; /* IE5+ */
@@ -506,7 +512,7 @@ body {
 .artist-text {
     padding-top: 20px;
     font-size: 18px;
-    margin-top: 45vh;
+    /*margin-top: 45vh;*/
     background: rgba(0, 18, 30, 0.8);
     /*padding-bottom: 9vh;*/
 }
