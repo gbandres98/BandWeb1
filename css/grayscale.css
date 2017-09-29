@@ -10,7 +10,8 @@ body {
     color: white;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00121e+48,00436e+100 */
     /*background: #00121e;*/
-    background: #0D0213;
+    /*background: #0D0213;*/
+    background-image: url('/BandWeb/img/bg/bg.jpg');
     /*!* Old browsers *!
      background: -moz-linear-gradient(top,  #00121e 48%, #00436e 100%); !* FF3.6-15 *!
      background: -webkit-linear-gradient(top,  #00121e 48%,#00436e 100%); !* Chrome10-25,Safari5.1-6 *!
@@ -58,7 +59,7 @@ p {
 }
 
 a {
-    color: #42DCA3;
+    color: #7CA7C9;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -67,12 +68,12 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #4a657a;
 }
 
 a:active {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #4a657a;
 }
 
 .light {
@@ -329,17 +330,18 @@ a:active {
 }
 
 .btn-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
+    border: 1px solid #7CA7C9;
+    color: #7CA7C9;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus,.fun {
-    border: 1px solid #42DCA3;
+    /*border: 1px solid #42DCA3;*/
+    border: 1px solid #7CA7C9;
     outline: none;
     color: black;
-    background-color: #42DCA3;
+    background-color: #7CA7C9;
 }
 
 ul.banner-social-buttons {
@@ -451,7 +453,7 @@ body {
 .color-flip {
     display: flex;
     align-items: flex-end;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 125px);
     filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
     filter: gray; /* IE5+ */
     -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
@@ -471,7 +473,7 @@ body {
 
 .af {
     width: 780px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 125px);
     /*
     color: #2a2a2a;
     */
@@ -479,6 +481,7 @@ body {
     /*top: 25;*/
     z-index: -1;
     opacity: 0;
+    overflow: hidden;
 }
 
 #af3 {
@@ -487,7 +490,7 @@ body {
 
 .af21 {
     width: 390px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 125px);
     position: absolute;
     /*top: 25;*/
     left: 0px;
@@ -497,7 +500,7 @@ body {
 
 .af22 {
     width: 390px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 125px);
     position: absolute;
     /*top: 25;*/
     left: 780px;
@@ -602,6 +605,21 @@ body {
     min-height: 100vh;
 
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.portada1{
+    min-height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+#myCarousel{
+    /*align-self: flex-end;*/
+}
+
+.fill{
+    flex: 1;
 }
 
 .fondo{
