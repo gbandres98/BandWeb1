@@ -11,7 +11,7 @@ body {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00121e+48,00436e+100 */
     /*background: #00121e;*/
     /*background: #0D0213;*/
-    background-image: url('/BandWeb1/img/bg/bg.jpg');
+    background-image: url('/BandWeb/img/bg/bg.jpg');
     /*!* Old browsers *!
      background: -moz-linear-gradient(top,  #00121e 48%, #00436e 100%); !* FF3.6-15 *!
      background: -webkit-linear-gradient(top,  #00121e 48%,#00436e 100%); !* Chrome10-25,Safari5.1-6 *!
@@ -44,6 +44,9 @@ h2{
     margin-bottom: 0px;
 }
 
+h5{
+    margin-bottom: 0px;
+}
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -196,6 +199,7 @@ a:active {
     .brand-heading {
         font-family: ArialRoundedMTBold, "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
         font-size: 100px;
+        color: #7CA7C9;
     }
 
     .intro-text {
@@ -448,6 +452,7 @@ body {
 
 .titulo{
     color: #7CA7C9;
+    font-size: 46px;
 }
 
 .color-flip {
