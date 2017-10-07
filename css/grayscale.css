@@ -11,7 +11,7 @@ body {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00121e+48,00436e+100 */
     /*background: #00121e;*/
     /*background: #0D0213;*/
-    background-image: url('/BandWeb1/img/bg/bg.jpg');
+    background-image: url('/BandWeb/img/bg/bg.jpg');
     /*!* Old browsers *!
      background: -moz-linear-gradient(top,  #00121e 48%, #00436e 100%); !* FF3.6-15 *!
      background: -webkit-linear-gradient(top,  #00121e 48%,#00436e 100%); !* Chrome10-25,Safari5.1-6 *!
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 0px;
     text-transform: uppercase;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -189,6 +189,9 @@ a:active {
     font-size: 18px;
 }
 
+.brand-heading{
+    margin-bottom: 35px;
+}
 
 @media (min-width: 768px) {
     .intro {
@@ -208,12 +211,36 @@ a:active {
     }
 }
 
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .tintro{
-    text-align: center;
     font-size: 26px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.text p{
+    font-size: 26px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.banner img{
+    width: 100%;
+    flex: 1;
+}
+
+p3{
+    height: 200px;
+    width: 200px;
 }
 
 .btn-circle {
@@ -458,7 +485,7 @@ body {
 .color-flip {
     display: flex;
     align-items: flex-end;
-    height: calc(100vh - 125px);
+    height: calc(100vh - 135px);
     filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
     filter: gray; /* IE5+ */
     -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
@@ -478,7 +505,7 @@ body {
 
 .af {
     width: 780px;
-    height: calc(100vh - 125px);
+    height: calc(100vh - 135px);
     /*
     color: #2a2a2a;
     */
@@ -495,7 +522,7 @@ body {
 
 .af21 {
     width: 390px;
-    height: calc(100vh - 125px);
+    height: calc(100vh - 135px);
     position: absolute;
     /*top: 25;*/
     left: 0px;
@@ -505,7 +532,7 @@ body {
 
 .af22 {
     width: 390px;
-    height: calc(100vh - 125px);
+    height: calc(100vh - 135px);
     position: absolute;
     /*top: 25;*/
     left: 780px;
@@ -607,24 +634,33 @@ body {
 }
 
 .portada{
+    padding-top: 75px;
     min-height: 100vh;
-
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-.portada1{
-    min-height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
+.portada1{
+    padding-top: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
 #myCarousel{
     /*align-self: flex-end;*/
 }
 
-.fill{
-    flex: 1;
+.text{
+    padding-top: 35px;
 }
 
 .fondo{
@@ -643,6 +679,10 @@ body {
 
 .carousel-control{
     z-index: 0;
+}
+
+#myCarousel{
+    margin-top: 35px;
 }
 
 /*BOOTSTRAP 4.0.0*/
