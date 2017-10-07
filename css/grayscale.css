@@ -645,7 +645,6 @@ body {
 }
 
 .portada1{
-    padding-top: 50px;
     padding-bottom: 140px;
     display: flex;
     flex-direction: column;
