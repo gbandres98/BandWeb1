@@ -11,7 +11,7 @@ body {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00121e+48,00436e+100 */
     /*background: #00121e;*/
     /*background: #0D0213;*/
-    background-image: url('/BandWeb1/img/bg/bg.jpg');
+    background-image: url('/BandWeb/img/bg/bg.jpg');
     /*!* Old browsers *!
      background: -moz-linear-gradient(top,  #00121e 48%, #00436e 100%); !* FF3.6-15 *!
      background: -webkit-linear-gradient(top,  #00121e 48%,#00436e 100%); !* Chrome10-25,Safari5.1-6 *!
@@ -220,13 +220,14 @@ a:active {
     font-size: 26px;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 25px;
     text-align: right;
     margin-bottom: 0px;
     font-style: italic;
 }
 
 .text p{
-    font-size: 26px;
+    font-size: 20px;
     padding-left: 25px;
     padding-right: 25px;
     text-align: left;
@@ -645,11 +646,11 @@ body {
 
 .portada1{
     padding-top: 50px;
-    min-height: 100vh;
+    padding-bottom: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-right: 15px;
     padding-left: 15px;
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
